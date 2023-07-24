@@ -5,10 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Google tag (gtag.js) -->
+
 </head>
 
 <body>
-    hello world
+    <nav>
+        <button>个人简介</button>
+        <button>工作经历</button>
+        <button>教育经历</button>
+        <button>项目经验</button>
+    </nav>
+    <div>
+        hello world
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHC83FE4E1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CHC83FE4E1');
+    </script>
 </body>
 
 </html>
